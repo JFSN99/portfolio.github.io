@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
 
 
@@ -17,6 +18,7 @@
   --font-mono: var(--font-geist-mono);
   --font-caacupe: "Caacupe One", sans-serif;
   --font-Oswald: "Oswald", sans-serif;
+  --font-Outfit:"Outfit", sans-serif;
   
 }
 
