@@ -3,6 +3,8 @@ import { Slider } from '@/componentes/slider'
 import { SlideC } from '@/contexts/slideCtx'
 import { SessaoContexto } from '@/contexts/SessoesCtx'
 import { Int } from '@/componentes/Int'
+import { Cursos } from '@/componentes/cursos'
+import { CrsCtx } from '@/contexts/Cursos'
 
 const page = () => {
   return (
@@ -14,6 +16,10 @@ const page = () => {
             <Slider></Slider>
           </SlideC>
           <Int></Int>
+          <CrsCtx>
+              <Cursos></Cursos>
+          </CrsCtx>
+          
       </SessaoContexto>
         
    </div>
