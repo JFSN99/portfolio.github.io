@@ -1,5 +1,5 @@
 'use client'
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { SessaoConst } from "@/contexts/SessoesCtx";
 import { CursosCtx } from "@/contexts/Cursos";
 
@@ -7,22 +7,38 @@ export const Cursos = () => {
 
     const SessCtx = useContext(SessaoConst);
     const CrsCtx = useContext(CursosCtx);
+    const [zoom, setZoom] = useState(false);
+    const [imgAmp, setImgAmp] = useState('');
+
+    const HandleImgZoom = (src:string) => {
+
+        
+        setZoom(true);
+        setImgAmp(src);
+
+    }
     return(
 
         <div className="mt-3">
             {SessCtx?.sessoes[0].cursos &&
                 <>
-                    <div className="bg-black opacity-80 hidden justify-center items-center h-screen w-full absolute">
-                        <div className="bg-red-600 w-10 h-5">
-
-                        </div>
-                    </div>
-                    <div className="flex justify-between pr-2">
-                        <div className="flex flex-col flex-start mb-5">
+                    {zoom &&
+                        <div className="flex flex-col p-2 absolute bg-black h-screen">
+                            <button className="mb-4 border w-6 h-6 border-white flex self-end items-center justify-center rounded-sm right-0 p-1" onClick={() => setZoom(false)}>X</button>
+                            <div className="">
+                                {
+                                    <img src={`${imgAmp}`} alt="" />
+                                }
+                            </div>
+                        </div>  
+                    }
+                    
+                    <div className="flex justify-between items-center px-2 pt-2 mb-5">
+                        <div className="flex flex-col flex-start justify-center">
                             <h1 className="text-2xl rounded-full">Cursos</h1>
                             <div className="w-18 h-1 bg-linear-to-r from-cyan-500 to-green-500 rounded-full"></div>
                         </div>
-                        <button className="bg-white w-7 h-7 font-bold cursor-pointer text-indigo-600 rounded-sm hover:opacity-60" onClick={() => SessCtx.handleCursos()}>X</button>
+                        <button className=" w-7 h-7 font-bold cursor-pointer text-white border-white border rounded-sm hover:opacity-60" onClick={() => SessCtx.handleCursos()}>X</button>
                     </div>
                     <div className="p-2 h-100 overflow-y-scroll">
                         <div className="h-auto">
@@ -36,7 +52,7 @@ export const Cursos = () => {
                                                 <strong className="text-xl text-center">Curso: {item.nome}</strong>
                                                 <strong className="text-xl text-center">Duração: {item.duracao} Horas</strong>
                                             </div>
-                                            <img src={`${item.src}`} className="w-full h-full cover mx-auto" alt=""></img>
+                                            <img src={`${item.src}`} onClick={() => HandleImgZoom(item.src)} className="w-full h-full cover mx-auto" alt=""></img>
                                         </div>)
                                 })}
                             </div>
