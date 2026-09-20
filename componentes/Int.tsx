@@ -15,10 +15,14 @@ export const Int = () => {
                 {IntCtx?.sessoes[0].Int && 
                     <div className="bg-black py-5 px-3">
                     
-                        <div className="bg-linear-to-r from-indigo-600 to-purple-600  p-3 rounded-md shadow-lg shadow-blue-500/50 font-Outfit">
+                        <div className="p-3 font-Outfit">
                             <div className="flex justify-between pr-2 bg-">
-                                <h1 className="text-3xl lg:text-4xl">Sobre Mim</h1>
-                                <button className="bg-white px-3 w-9 h-9 font-bold cursor-pointer text-indigo-600 rounded-sm hover:opacity-60" onClick={IntCtx?.handleInt}>X</button>
+                                <div>
+                                    <h1 className="text-3xl lg:text-4xl">Sobre Mim</h1>
+                                    <div className="bg-linear-to-r from-amber-500 to-orange-600 w-18 h-1"></div>
+                                </div>
+                                
+                                <button className="border border-white w-9 h-9 font-bold cursor-pointer text-white rounded-sm hover:opacity-60" onClick={IntCtx?.handleInt}>X</button>
                             </div>
                             <div className="grid text-md **:items-center *:p-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 px-2 gap-2 mt-5">
                                 <div className="lg:col-span-2 bg-linear-to-r **:text-sm md:**:text-lg items-center from-sky-600 to-indigo-600 *:text-lg text-center border grid grid-cols-2 rounded">
