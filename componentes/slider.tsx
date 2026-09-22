@@ -54,9 +54,9 @@ export const Slider = () => {
                 
             </div>
              <div className="flex w-18 items-center justify-between mt-[-30] mx-auto">
-                <button className={`w-5 h-5 bg-${SlideCtx?.slider[0].pos===0?'indigo-500':'transparent'} border rounded-full hover:bg-indigo-500 cursor-pointer`} onClick={() => SlideCtx?.Set1() }></button>
-                <button className={`w-5 h-5 bg-${SlideCtx?.slider[0].pos===100?'indigo-500':'transparent'} border rounded-full hover:bg-indigo-500 cursor-pointer`} onClick={() => SlideCtx?.Set2()}></button>
-                <button className={`w-5 h-5 bg-${SlideCtx?.slider[0].pos===200?'indigo-500':'transparent'} border rounded-full hover:bg-indigo-500 cursor-pointer`} onClick={() => SlideCtx?.Set3()}></button>
+                <button className={`w-5 h-5 bg-${SlideCtx?.slider[0].pos===0?'indigo-600':'transparent'} border rounded-full hover:bg-indigo-500 cursor-pointer`} onClick={() => SlideCtx?.Set1() }></button>
+                <button className={`w-5 h-5 bg-${SlideCtx?.slider[0].pos===100?'indigo-600':'transparent'} border rounded-full hover:bg-indigo-500 cursor-pointer`} onClick={() => SlideCtx?.Set2()}></button>
+                <button className={`w-5 h-5 bg-${SlideCtx?.slider[0].pos===200?'indigo-600':'transparent'} border rounded-full hover:bg-indigo-500 cursor-pointer`} onClick={() => SlideCtx?.Set3()}></button>
             </div>
             
         </>
