@@ -27,7 +27,7 @@ export const Menu = () => {
             <nav className={`${hideMenu?'hidden':'flex'} flex-col font-Oswald bg-black absolute mt-15 w-30 right-0`}>
                 <div className="p-2 text-center transition-all hover:bg-indigo-600 hover:text-white text-indigo-600 cursor-pointer" onClick={() => SessaoCtx?.handleInt()}>Quem sou ?</div>
                 <div className="p-2 text-center text-indigo-600 transition-all hover:bg-indigo-600 hover:text-white cursor-pointer" onClick={() => SessaoCtx?.handleCursos()}>Cursos</div>
-                <div className="p-2 text-center text-indigo-600 transition-all hover:bg-indigo-600 hover:text-white cursor-pointer">Habilidades</div>
+                <div className="p-2 text-center text-indigo-600 transition-all hover:bg-indigo-600 hover:text-white cursor-pointer" onClick={() => SessaoCtx?.handlehab()}>Habilidades</div>
                 <div className="p-2 text-center text-indigo-600 transition-all hover:bg-indigo-600 hover:text-white cursor-pointer">Projetos</div>
                 <div className="p-2 text-center text-indigo-600 transition-all hover:bg-indigo-600 hover:text-white cursor-pointer">Contatos</div>
             </nav>
