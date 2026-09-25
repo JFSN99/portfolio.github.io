@@ -39,14 +39,14 @@ export const Slider = () => {
                             <h1 className="text-4xl my-5 font-Oswald text-center text-shadow-lg text-shadow-purple-600 md:text-6xl">Quem sou ?</h1>
                             <button className="bg-indigo-600 w-20 animate-pulse p-2 rounded-sm font-caacupe cursor-pointer hover:bg-indigo-800 lg:text-xl lg:w-25" onClick={sessCtx?.handleInt}>Saiba mais</button>
                         </div>
-                        <img src="/imgS2.png" className="w-70" alt="" />
+                        <img src="/portfolio.github.io/imgS2.png" className="w-70" alt="" />
                     </div>
                     <div className={`slide3 h-full w-screen flex flex-col items-center md:flex-row md:justify-around`}>
                         <div className="flex flex-col items-center">
                             <h1 className="text-4xl my-5 font-Oswald text-center text-shadow-lg text-shadow-purple-600 md:text-6xl">Se interessou ?</h1>
                             <button className="bg-indigo-600 animate-pulse  p-2 rounded-sm font-caacupe cursor-pointer hover:bg-indigo-800 lg:text-xl">Entre em contato</button>
                         </div>
-                        <img src="/imgS3.png" className="w-70" alt="" />
+                        <img src="/portfolio.github.io/imgS3.png" className="w-70" alt="" />
                         
                     </div>
                     
