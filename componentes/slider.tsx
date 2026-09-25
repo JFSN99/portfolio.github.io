@@ -30,7 +30,7 @@ export const Slider = () => {
                             <button className="bg-indigo-600 animate-pulse text-shadow-md w-auto text-shadow-blue-600 p-2 rounded-sm font-caacupe cursor-pointer lg:text-xl lg:mt-5 hover:bg-indigo-800" >Conheça os meus projetos</button>
                         </div>
                       
-                        <img src="/imgS1.png" className="w-80 h-100 mx-auto cover md:w-90 md:h-full" alt="" />
+                        <img src="/portfolio.github.io/imgS1.png" className="w-80 h-100 mx-auto cover md:w-90 md:h-full" alt="" />
                         
                     </div>
                 
