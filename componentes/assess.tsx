@@ -20,8 +20,8 @@ const HandleNota = (nota:number) => {
         case 2:
             return(
                 <div className="flex">
-                    <img className="w-10 h-10"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
-                    <img className="w-10 h-10"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
+                    <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
+                    <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
                     <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-empty-icon.png" alt="" />
                     <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-empty-icon.png" alt="" />
                     <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-empty-icon.png" alt="" />
@@ -31,9 +31,9 @@ const HandleNota = (nota:number) => {
         case 3:
             return(
                 <div className="flex">
-                    <img className="w-10 h-10"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
-                    <img className="w-10 h-10"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
-                    <img className="w-10 h-10"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
+                    <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
+                    <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
+                    <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
                     <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-empty-icon.png" alt="" />
                     <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-empty-icon.png" alt="" />
                 </div>
@@ -42,10 +42,10 @@ const HandleNota = (nota:number) => {
         case 4:
             return(
                 <div className="flex">
-                    <img className="w-10 h-10"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
-                    <img className="w-10 h-10"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
-                    <img className="w-10 h-10"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
-                    <img className="w-10 h-10"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
+                    <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
+                    <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
+                    <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
+                    <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
                     <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-empty-icon.png" alt="" />
                 </div>
             )
@@ -58,7 +58,6 @@ const HandleNota = (nota:number) => {
                     <img className="w-10 h-10"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
                     <img className="w-10 h-10"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
                     <img className="w-10 h-10"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" />
-                    <img className="w-9 h-9"  src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-empty-icon.png" alt="" />
                 </div>
             )
         break;
