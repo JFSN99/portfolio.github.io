@@ -16,7 +16,7 @@ export const Skills = () => {
         <div>
             {SessCtx?.sessoes[0].hab && 
                 <HeaderSess title="Habilidades" Func={SessCtx?.handlehab}>
-                    <div className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 px-2">
+                    <div className="grid grid-cols-1 mx-auto gap-5 md:px-20 lg:px-50 md:grid-cols-2 lg:grid-cols-3 px-2">
                         {Ctx?.hab.map((item) => {
                             return(
                             <div key={item.id} className="border border-white w-60 mx auto p-4 flex flex-col items-center">
