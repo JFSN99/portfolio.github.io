@@ -19,7 +19,7 @@ export const Skills = () => {
                     <div className="grid grid-cols-1 gap-2 px-2">
                         {Ctx?.hab.map((item) => {
                             return(
-                            <div key={item.id} className="border border-white p-4 flex flex-col items-center">
+                            <div key={item.id} className="border border-white w-60 mx auto p-4 flex flex-col items-center">
                                 <img src={item.img} className="w-30 h-30">
 
                                 </img>
