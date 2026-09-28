@@ -23,8 +23,8 @@ export const Cursos = () => {
         <div className="">
             {SessCtx?.sessoes[0].cursos &&
                 <>
-                    {zoom &&
-                        <div className="flex flex-col p-2 absolute bg-black w-full h-screen">
+                    {zoom && 
+                        <div className="flex flex-col p-2 absolute bg-black w-full">
                             <button className="mb-4 border w-9 h-9 border-white flex self-end items-center justify-center rounded-sm right-0 p-1 cursor-pointer hover:opacity-50" onClick={() => setZoom(false)}>X</button>
                             <div className="mx-auto my-auto">
                                 {
