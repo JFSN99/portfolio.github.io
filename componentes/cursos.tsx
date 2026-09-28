@@ -28,7 +28,7 @@ export const Cursos = () => {
                             <button className="mb-4 border w-9 h-9 border-white flex self-end items-center justify-center rounded-sm right-0 p-1 cursor-pointer hover:opacity-50" onClick={() => setZoom(false)}>X</button>
                             <div className="mx-auto my-auto">
                                 {
-                                    <img src={`${imgAmp}`} className="w-full p-1 md:w-1/2  md:p-10 lg:p-20" alt="" />
+                                    <img src={`${imgAmp}`} className="w-3/4 p-1 md:w-1/2 mx-auto md:p-10 lg:p-20" alt="" />
                                 }
                             </div>
                         </div>  
