@@ -89,6 +89,11 @@ export const CrsCtx = ({children}:{children:ReactNode}) => {
         src:'/portfolio.github.io/Typescript_do_zero.png',
         nome:'TypeScript do zero',
         duracao:5},
+        {
+        id:14,
+        src:'/portfolio.github.io/hookform_e_zod.png',
+        nome:'Hookform + zod',
+        duracao:5},    
     ]
 
     return(
